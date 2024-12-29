@@ -136,6 +136,11 @@ nav {
   max-width: 100%;
   height: auto;
   margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+.self-image:hover {
+  transform: translate(-20%);
 }
 
 /* main section starts here */
