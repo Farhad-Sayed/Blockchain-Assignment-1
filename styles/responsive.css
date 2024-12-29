@@ -1,0 +1,473 @@
+/* Responsive Styles */
+/* header section responsive */
+@media (max-width: 1024px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .header {
+    max-width: 100%;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .banner-section {
+    flex-direction: column-reverse;
+  }
+
+  .banner-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .banner-title {
+    font-size: 48px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+
+  .self-image {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-title {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
+
+/* client section responsive */
+@media (max-width: 1024px) {
+  .upper-content h2 {
+    font-size: 26px;
+  }
+
+  .upper-content p {
+    font-size: 14px;
+  }
+
+  .content img {
+    width: 30%;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .content .content-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content .content-item img {
+    width: 48%; /* Two images in one row */
+  }
+}
+
+@media (max-width: 768px) {
+  .upper-content h2 {
+    font-size: 22px;
+  }
+
+  .upper-content p {
+    font-size: 14px;
+  }
+
+  .content img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 480px) {
+  .upper-content h2 {
+    font-size: 20px;
+  }
+
+  .upper-content p {
+    font-size: 12px;
+  }
+
+  .content img {
+    width: 40%;
+    margin: 10px 0;
+  }
+}
+
+/* Blockchain card section responsive */
+@media (max-width: 1024px) {
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1.5rem;
+  }
+
+  .card h3 {
+    font-size: 14px;
+  }
+
+  .card p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .blockchain {
+    margin-bottom: 50px;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .card h3 {
+    font-size: 12px;
+  }
+
+  .card p {
+    font-size: 10px;
+  }
+}
+
+/* helping blockdhain section responsive */
+@media (max-width: 1024px) {
+  .helping-blockchain {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .left-content {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .left-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .middle-content,
+  .right-content {
+    text-align: center;
+    flex: 1 1 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .helping-blockchain {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .middle-content,
+  .right-content {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .top,
+  .bottom {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .top h3,
+  .bottom h3 {
+    font-size: 1.2rem;
+  }
+
+  .top p,
+  .bottom p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .top,
+  .bottom {
+    display: block;
+  }
+
+  .full-width {
+    padding: 2rem 1rem;
+  }
+
+  .left-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .top i,
+  .bottom i {
+    font-size: 1.5rem;
+  }
+
+  .top h3,
+  .bottom h3 {
+    font-size: 1rem;
+  }
+
+  .top p,
+  .bottom p {
+    font-size: 0.8rem;
+  }
+}
+
+/* image card section responsive */
+@media (max-width: 1024px) {
+  .image-card-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .image-card {
+    flex: 1 1 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+    text-align: center;
+  }
+
+  .card-overlay {
+    bottom: -20%;
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .card-overlay {
+    bottom: -10%;
+    width: 95%;
+    padding: 15px;
+
+    .card-overlay p {
+      font-size: 0.75rem;
+    }
+
+    .read-more {
+      font-size: 0.8rem;
+      padding: 8px 12px;
+    }
+
+    .read-more span {
+      font-size: 1em;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .image-card-section {
+    padding: 10px;
+  }
+
+  .card-image {
+    height: 150px;
+  }
+
+  .card-overlay {
+    width: 100%;
+    bottom: 0%;
+    padding: 10px;
+  }
+
+  .card-overlay p {
+    font-size: 0.7rem;
+  }
+
+  .read-more {
+    font-size: 0.7rem;
+    padding: 6px 10px;
+  }
+
+  .read-more span {
+    font-size: 0.9em;
+  }
+}
+
+/* contact us section responsive */
+@media (max-width: 1024px) {
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .contact-left,
+  .contact-right {
+    flex: 1;
+    width: 100%;
+  }
+
+  .contact-left img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .contact-right input[type="text"],
+  .contact-right input[type="email"],
+  .contact-right textarea {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-left img {
+    max-width: 300px;
+  }
+
+  .contact-right input[type="text"],
+  .contact-right input[type="email"],
+  .contact-right textarea {
+    width: 100%;
+  }
+
+  textarea {
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-right h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact-right input[type="text"],
+  .contact-right input[type="email"],
+  .contact-right textarea {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+
+  .btn-secondary {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+/* footer section responsive */
+@media (max-width: 1024px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .logo-column {
+    align-items: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  ul li {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 15px;
+  }
+
+  h4 {
+    font-size: 0.9rem;
+  }
+
+  ul li a {
+    font-size: 0.8rem;
+  }
+
+  .email-form {
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .email-form input,
+  .email-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .email-form button {
+    position: absolute;
+    left: 3.5rem;
+    top: 1.2rem;
+    font-size: 0.2rem;
+  }
+
+  .email-form input::placeholder {
+    font-size: 10px;
+  }
+}
+
+/* Extra Small Screens (Mobile Portrait) */
+@media (max-width: 480px) {
+  .footer {
+    gap: 15px;
+  }
+
+  .footer-logo {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .social-icons a {
+    font-size: 16px;
+  }
+
+  .email-form button {
+    position: absolute;
+    left: 1rem;
+  }
+
+  .email-form input {
+    min-width: 200px;
+  }
+
+  .email-form input::placeholder {
+    font-size: 5px;
+  }
+}
