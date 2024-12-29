@@ -311,10 +311,10 @@ nav {
 
 .card-overlay {
   position: absolute;
-  bottom: -40%;
+  bottom: -25%;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
+  width: 90%;
   background-color: #f1f4f7;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
