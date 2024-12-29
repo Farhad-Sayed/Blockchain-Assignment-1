@@ -160,14 +160,21 @@ nav {
   margin-bottom: 20px;
 }
 
-.content {
+/* .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+} */
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+  justify-items: center;
 }
 
 .content img {
-  width: 5%;
+  width: 30%;
   height: auto;
   transition: transform 0.3s ease;
 }
